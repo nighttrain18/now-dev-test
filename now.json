@@ -1,0 +1,221 @@
+{
+    "routes": [
+        {
+           "src": "/",
+           "status": 301,
+           "headers": {
+              "Location": "/en"
+           }
+        },
+        {
+           "src": "/courses",
+           "status": 301,
+           "headers": {
+              "Location": "/en"
+           }
+        },
+        {
+           "src": "ru/courses",
+           "status": 301,
+           "headers": {
+              "Location": "/en"
+           }
+        },
+        {
+           "src": "en/courses",
+           "status": 301,
+           "headers": {
+              "Location": "/en"
+           }
+        },
+        {
+           "src": "/courses/react-fundamentals",
+           "status": 301,
+           "headers": {
+              "Location": "/ru/courses/react-I"
+           }
+        },
+        {
+           "src": "/tutorials/nodejs/",
+           "status": 301,
+           "headers": {
+              "Location": "/tutorials/node-I/"
+           }
+        },
+        {
+           "src": "/courses/react-js",
+           "status": 301,
+           "headers": {
+              "Location": "/ru/courses/react-I"
+           }
+        },
+        {
+           "src": "/...es/junior-react-developer",
+           "status": 301,
+           "headers": {
+              "Location": "/ru/courses/react-I"
+           }
+        },
+        {
+           "src": "/ru/courses/junior-react-developer",
+           "status": 301,
+           "headers": {
+              "Location": "/ru/courses/react-I"
+           }
+        },
+        {
+           "src": "/ru/courses/junior-react-developer/",
+           "status": 301,
+           "headers": {
+              "Location": "/courses/react-I/"
+           }
+        },
+        {
+           "src": "/tutorials/nodejs-fundamentals",
+           "status": 301,
+           "headers": {
+              "Location": "/tutorials/node-I"
+           }
+        },
+        {
+           "src": "/tutorials/nodejs-fundamentals/process",
+           "status": 301,
+           "headers": {
+              "Location": "/tutorials/node-I"
+           }
+        },
+        {
+           "src": "/tutorials/nodejs-fundamentals/platform",
+           "status": 301,
+           "headers": {
+              "Location": "/tutorials/node-I"
+           }
+        },
+        {
+           "src": "/tutorials/nodejs-fundamentals/modules",
+           "status": 301,
+           "headers": {
+              "Location": "/tutorials/node-I"
+           }
+        },
+        {
+           "src": "/tutorials/nodejs-fundamentals/files",
+           "status": 301,
+           "headers": {
+              "Location": "/tutorials/node-I"
+           }
+        },
+        {
+           "src": "/tutorials/nodejs-fundamentals/buffers",
+           "status": 301,
+           "headers": {
+              "Location": "/tutorials/node-I"
+           }
+        },
+        {
+           "src": "/tutorials/react",
+           "status": 301,
+           "headers": {
+              "Location": "/tutorials/react-I"
+           }
+        },
+        {
+           "src": "/tutorials/react/fundamentals",
+           "status": 301,
+           "headers": {
+              "Location": "/tutorials/react-I"
+           }
+        },
+        {
+           "src": "/tutorials/asynchronous-programming",
+           "status": 301,
+           "headers": {
+              "Location": "/tutorials/async-I.callbacks"
+           }
+        },
+        {
+           "src": "/tutorials/asynchronous-programming/callbacks",
+           "status": 301,
+           "headers": {
+              "Location": "/tutorials/async-I.callbacks"
+           }
+        },
+        {
+           "src": "/tutorials/asynchronous-programming/promises",
+           "status": 301,
+           "headers": {
+              "Location": "/tutorials/async-I.promises"
+           }
+        },
+        {
+           "src": "/tutorials/functional-programming",
+           "status": 301,
+           "headers": {
+              "Location": "/tutorials/ramda-I"
+           }
+        },
+        {
+           "src": "/tutorials/functional-programming/intro",
+           "status": 301,
+           "headers": {
+              "Location": "/tutorials/ramda-I"
+           }
+        },
+        {
+           "src": "/tutorials/functional-programming/map",
+           "status": 301,
+           "headers": {
+              "Location": "/tutorials/ramda-I"
+           }
+        },
+        {
+           "src": "/tutorials/functional-programming/filter",
+           "status": 301,
+           "headers": {
+              "Location": "/tutorials/ramda-I"
+           }
+        },
+        {
+           "src": "/tutorials/functional-programming/reduce",
+           "status": 301,
+           "headers": {
+              "Location": "/tutorials/ramda-I"
+           }
+        },
+        {
+           "src": "/tutorials/functional-programming/chain",
+           "status": 301,
+           "headers": {
+              "Location": "/tutorials/ramda-I"
+           }
+        },
+        {
+           "src": "/tutorials/functional-programming/zip",
+           "status": 301,
+           "headers": {
+              "Location": "/tutorials/ramda-I"
+           }
+        },
+        {
+           "src": "/tutorials/functional-programming/sort",
+           "status": 301,
+           "headers": {
+              "Location": "/tutorials/ramda-I"
+           }
+        },
+        {
+           "src": "/tutorials/functional-programming/composition",
+           "status": 301,
+           "headers": {
+              "Location": "/tutorials/ramda-I"
+           }
+        },
+        {
+           "src": "/tutorials/functional-programming/playground",
+           "status": 301,
+           "headers": {
+              "Location": "/tutorials/ramda-I"
+           }
+        }
+     ]
+}
