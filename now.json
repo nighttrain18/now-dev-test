@@ -36,10 +36,10 @@
            }
         },
         {
-           "src": "/tutorials/nodejs/",
+           "src": "/tutorials/nodejs/(?<postfix>.+)",
            "status": 301,
            "headers": {
-              "Location": "/tutorials/node-I/"
+              "Location": "/tutorials/node-I/$postfix"
            }
         },
         {
@@ -64,10 +64,10 @@
            }
         },
         {
-           "src": "/ru/courses/junior-react-developer/",
+           "src": "/ru/courses/junior-react-developer/(?<postfix>.+)",
            "status": 301,
            "headers": {
-              "Location": "/courses/react-I/"
+              "Location": "/courses/react-I/$postfix"
            }
         },
         {
