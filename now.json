@@ -15,14 +15,14 @@
            }
         },
         {
-           "src": "ru/courses",
+           "src": "/ru/courses",
            "status": 301,
            "headers": {
               "Location": "/en"
            }
         },
         {
-           "src": "en/courses",
+           "src": "/en/courses",
            "status": 301,
            "headers": {
               "Location": "/en"
